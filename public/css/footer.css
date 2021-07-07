@@ -122,12 +122,16 @@
 @media (min-width:1024px) {
     /* footer */
 
+.footer .formasdepago{
+    display: flex;
+}
+
 .footer p{
     font-size: 15px;
 }
 
 .footer .copyright {
-    font-size: 12px;
+    font-size: 14px;
 }
 
     .footer h4{
