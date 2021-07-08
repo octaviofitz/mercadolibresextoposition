@@ -39,6 +39,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin-bottom: 5vh;
+    transition: all 500ms;
+}
+
+.home .articulos:hover{
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
 }
 
 .home .articulos .fa-truck{
@@ -86,11 +91,18 @@
 .home .articulos .descripcion{
     font-size: 16px;
     margin-left: 10px;
-    color: #666;
+    /* color: #666; */
     font-weight: 400;
-    display: none;
-    
+    display: inline-block;
+    transition: all 0.1s;
+    color: white;
+
 }
+
+.home .articulos .descripcion:hover{
+    color: #666;
+}
+
 
 
 @media (min-width: 361px) {
@@ -110,9 +122,9 @@
  
 /* main */
 
-.home .articulos{
+/* .home .articulos{
     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
-}
+} */
 
 .home .articulos .fa-truck{
     font-size: 14px;

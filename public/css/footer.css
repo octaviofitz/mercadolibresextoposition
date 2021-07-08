@@ -134,7 +134,17 @@
     font-size: 14px;
 }
 
-    .footer h4{
-    font-size: 17px;
+.footer h4{
+    font-size: 17px;  
 }
+
+.footer i{
+    transition: all 500ms;
+}
+
+.footer i:hover{
+    color: #EAC926;
+
+}
+
 }

@@ -3,3 +3,11 @@
     height: 35vh;
 }
 
+.login .btn-primary{
+    transition: all 10ms;
+}
+
+.login .btn-primary:hover{
+    background-color: #0022AA;
+}
+
