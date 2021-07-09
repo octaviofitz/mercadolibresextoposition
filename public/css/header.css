@@ -15,8 +15,7 @@
 
  .header .divmobile{
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+     flex-direction: row;
     justify-content: space-between;
 }
 
@@ -66,14 +65,22 @@
         height: 30vh;
     }
 
+    .header .divmobile{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
      .header .logo{
-        width: 50%;
+        width: 45vw;
         margin: 15px
     }
 
      .header .barrabusqueda{
-        width: 50%;
-        margin-left: 15px;
+        width: 40vw;
+        height: 3vh;
+        margin-top: 6vh;
     }
 
 
@@ -116,6 +123,7 @@
     
     
      .header .barrabusqueda{
+        margin-left: 7vw;
         width: 24vw;
         margin-top: 32px;
     }
@@ -142,7 +150,6 @@
     
      .header .listausuario li{
         display: inline-block;
-        /* margin-right: 2vw; */
     }
     
      .header .lista{
